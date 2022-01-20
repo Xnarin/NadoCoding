@@ -75,13 +75,39 @@ printf("Hello World %d\n", i++);
 
 //구구단
 
-	for (int i = 2; i <= 9; i++)
+	/*for (int i = 2; i <= 9; i++)
 	{
 		printf("%d단 계산\n", i);
 		for (int j = 1; j <= 9; j++)
 		{
 			printf(" %d * %d = %d\n", i, j, i * j);
 		}
+	}*/
+
+	//별찍기
+
+	/*for ( int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j <= i; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}*/
+
+	//거꾸로 별
+
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j < 5 - 1; j++)
+		{
+			printf("");
+		}
+		for (int k = 0; k <= i; k++)
+		{
+			printf("*");
+		}
+		printf("\n");
 	}
 
 	return 0;
